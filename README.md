@@ -6,6 +6,8 @@ CPU-based parallel tsunami simulation code for a single domain.
 2. Compile with: mpif90 1_7_tun_mp.f90 1_7_tun_ut.f90 -O3 -o 1_7_tun.exe
 3. For the simulation test, run with 48 parallel processes: mpirun -n 48 ./1_7_tun.exe
 4. The propagation results will be written in 2_results folder.
+   
+Note that the program is only defined for a single domain. For future work, we are planning to further improve the tsunami simulation code by implementing **GPU computing and for several domains to achieve high-resolution**.
 
 # Tsunami Simulation Example
 The numerical simulation test is defined for an area of 324 x 881 km and 3000 time steps (10min of tsunami propagation) took around 3 minutes of computation.
@@ -22,8 +24,6 @@ The hierarchy of the files is:
 - 0_files/ ...
 - 1_deforms/ ...
 - 2_results/ ...
-
-Note that the program is only defined for a single domain. For future work, we are planning to further improve the tsunami simulation code by implementing **GPU computing and for several domains to achieve high-resolution**.
 
 # References
 - Paper submitted to JDR will be referenced here...
