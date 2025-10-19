@@ -37,8 +37,8 @@ subroutine main_allocate(II1,JJ1,JJ1tot,DX1,DY1,NP,nei,nbuf,ntot,rank,size,comm,
   real(4) FM,DT,SH,GG
   parameter (K6=100,KP=20)
   parameter (FM=0.025,SH=-50.0)
-  parameter (KL=3000,DT=0.20)!3600
-  parameter (KSNZ=300,KSTRT=0,KEND=3000)!3600
+  parameter (KL=3000,DT=0.20)!36000
+  parameter (KSNZ=300,KSTRT=0,KEND=3000)!36000
   parameter (GG=9.81)
   ! Position parameters
   integer II1,JJ1,JJ1tot,NP
@@ -212,3 +212,4 @@ subroutine main_allocate(II1,JJ1,JJ1tot,DX1,DY1,NP,nei,nbuf,ntot,rank,size,comm,
   !=================================================================
 
 endsubroutine
+
