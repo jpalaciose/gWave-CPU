@@ -1,6 +1,10 @@
-! Tsunami coded modified by S. Koshimura 2004,02,06
+! Tsunami code based on research of S. Koshimura et al 2004,02,06
+! Modified for parallel computing by:
+! - Carlos Davila
+! - Julian Palacios
+! - Fernando Garcia
+! To compile and run this code use:
 ! mpif90 1_7_tun_mp.f90 1_7_tun_ut.f90 -O3 -o 1_7_tun.exe
-! mpirun -n 15 --mca coll_hcoll_enable 0 ./1_7_tun.exe
 ! mpirun -n 48 ./1_7_tun.exe
 !
 program tunami_1d
@@ -206,4 +210,5 @@ subroutine main_allocate(II1,JJ1,JJ1tot,DX1,DY1,NP,nei,nbuf,ntot,rank,size,comm,
     write(*,'(A40)')'========================================'
   endif
   !=================================================================
+
 endsubroutine
