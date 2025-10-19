@@ -22,7 +22,7 @@ The hierarchy of the files is:
 3. For the simulation test, run with 48 parallel processes: mpirun -n 48 ./1_7_tun.exe
 4. The propagation results will be written in 2_results folder.
 
-Note that the program is only defined for a single domain. For future work, we are planning to further improve the tsunami code by implementing GPU computing and for several domains to achieve high-resolution.
+Note that the program is only defined for a single domain. For future work, we are planning to further improve the tsunami simulation code by implementing **GPU computing and for several domains to achieve high-resolution**.
 
 # References
 - Paper submitted to JDR will be referenced here...
