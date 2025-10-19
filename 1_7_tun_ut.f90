@@ -1,3 +1,9 @@
+! Tsunami code based on research of S. Koshimura et al 2004,02,06
+! Modified for parallel computing by:
+! - Carlos Davila
+! - Julian Palacios
+! - Fernando Garcia
+!
 !=================================================================
 ! GENERAL ROUTINES
 !=================================================================
@@ -940,4 +946,5 @@ subroutine OUTDATA(II,JJtot,IZS,IZE,JZS,JZE,ZM,NZ,ZI,HZ,VM,NV,NR)
   !
   write(NR,'(680F8.3)')((ZI(I,J),I=IZS,IZE),J=JZE,JZS,-1)
   close(NR)
+
 endsubroutine
