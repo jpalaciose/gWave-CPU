@@ -1,0 +1,8 @@
+#x0	#y0
+0	0
+#II	#JJ	#JJa
+3600	204	208
+#xres	#yres
+90	90
+#JJloc
+6528
