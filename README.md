@@ -7,7 +7,7 @@ CPU-based parallel tsunami simulation code for a single domain.
 3. For the simulation test, run with 48 parallel processes: mpirun -n 48 ./1_7_tun.exe
 4. The propagation results will be written in 2_results folder.
 
-# Example case
+# Tsunami Simulation Example
 The numerical simulation test is defined for an area of 324 x 881 km and 3000 time steps (10min of tsunami propagation) took around 3 minutes of computation.
 By modifying the number of time steps in 1_7_tun_mp.f90 (e.g. setting KL parameter to 36000) we can obtain the following inundation for Peru:
 
