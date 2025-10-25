@@ -3,8 +3,8 @@ CPU-based parallel tsunami simulation code for a single domain.
 
 # How to use
 1. Install Fortran compiler with MPI (it can be downloaded from OneAPI)
-2. Compile with: mpif90 1_7_tun_mp.f90 1_7_tun_ut.f90 -O3 -o 1_7_tun.exe
-3. For the simulation test, run with 48 parallel processes: mpirun -n 48 ./1_7_tun.exe
+2. Compile with: mpif90 gWave-CPU_mp.f90 gWave-CPU_ut.f90 -O3 -o gWave-CPU.exe
+3. For the simulation test, run with 48 parallel processes: mpirun -n 48 ./gWave-CPU.exe
 4. The propagation results will be written in 2_results folder.
    
 Note that the program is defined for a single domain. For future work, we are planning to further improve the tsunami simulation code by implementing **GPU computing and for several domains to achieve high-resolution**.
@@ -20,10 +20,16 @@ The earthquake slip scenario is defined in the files:
 - A_Data/CaLiBaHu.txt based on Villegas et al 2016.
 
 The hierarchy of the files is:
-- 1_7_tun.exe: main program for parallel tsunami simulation.
+- gWave-CPU.exe: main program for parallel tsunami simulation.
 - 0_files/ ...
 - 1_deforms/ ...
 - 2_results/ ...
+
+gWave-CPU is a tsunami simulation code based on research of S. Koshimura et al 2004,02,06.
+It was modified for parallel computing by:
+- Carlos Davila (carlos.davila.d@uni.pe)
+- Julian Palacios (jpalaciose@uni.pe)
+- Fernando Garcia (fgarciab@uni.pe)
 
 # References
 - Paper submitted to JDR will be referenced here...
