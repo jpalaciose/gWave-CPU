@@ -4,8 +4,8 @@
 ! - Julian Palacios
 ! - Fernando Garcia
 ! To compile and run this code use:
-! mpif90 1_7_tun_mp.f90 1_7_tun_ut.f90 -O3 -o 1_7_tun.exe
-! mpirun -n 48 ./1_7_tun.exe
+! mpif90 gWave-CPU_mp.f90 gWave-CPU_ut.f90 -O3 -o gWave-CPU.exe
+! mpirun -n 48 ./gWave-CPU.exe
 !
 program tunami_1d
   implicit none
@@ -212,4 +212,5 @@ subroutine main_allocate(II1,JJ1,JJ1tot,DX1,DY1,NP,nei,nbuf,ntot,rank,size,comm,
   !=================================================================
 
 endsubroutine
+
 
