@@ -11,7 +11,7 @@ Note that the program is defined for a single domain. In future work, we are pla
 
 # Tsunami Simulation Example
 The numerical simulation test defined for an area of 324 x 881 km and 3000 time steps (10min of tsunami propagation) took around 3 minutes of computation.
-By modifying the number of time steps in gWave-CPU_mp.f90 (e.g. setting KL parameter to 36000) we can obtain the following inundation for larger area (Peru):
+By modifying the number of time steps in gWave-CPU_mp.f90 (e.g. by setting KL parameter to 36000), we can obtain the following inundation maps for Peru region:
 
 <img width="2360" height="1216" alt="image" src="https://github.com/user-attachments/assets/ba11b2af-8ee8-4372-b67d-1e6fe60fa19b" />
 
