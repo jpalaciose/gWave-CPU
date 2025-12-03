@@ -32,7 +32,7 @@ It was modified for parallel computing by:
 - Fernando Garcia (fgarciab@uni.pe)
 
 # References
-- Paper submitted to JDR will be referenced here...
+- Garcia et al., "Parallel Computing Approach for Rapid Estimation of Tsunami Hazard and Population Exposure in Peru" Journal of Disaster Research Vol.20 No.6, 2025. https://doi.org/10.20965/jdr.2025.p0912
 - C. Jimenez et al., “Seismic source of 1746 Callao earthquake from tsunami numerical modeling,” J. Disaster Res., Vol.8 No.2, pp. 266-273, 2013. https://doi.org/10.20965/jdr.2013.p0266
 - J. C. Villegas-Lanza et al., “Active tectonics of Peru: Heterogeneous interseismic coupling along the Nazca megathrust, rigid motion of the Peruvian Sliver, and Subandean shortening accommodation,” JGR Solid Earth, Vol.121, pp. 7371-7394, 2016. https://doi.org/10.1002/2016JB013080
 - Imamura, F., "Review of tsunami simulation with a finite difference method, in Long-Wave Runup Models", edited by H. Yeh, P. Liu, and C. Synolakis, pp. 25–42, 1995. World Scientific Publishing, Hackensack, N. J.
